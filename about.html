@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts/gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo-colored.svg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMeno()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMeno()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<section class="about-us">
+    <div class="about-col">.
+        <h1>About us</h1>
+        <p>Amrita Vishwa Vidyapeetham is a multi-disciplinary, research-intensive, private university, educating a vibrant student population of over 24,000 by 1700+ strong faculty. Accredited with the highest possible ‘A++’ grade by NAAC, Amrita offers more than 250 UG, PG, and Ph.D. programs in Engineering, Management, and Medical Sciences including Ayurveda, Life Sciences, Physical Sciences, Agriculture Sciences, Arts & Humanities, and Social & Behavioral Sciences.
+            With seven campuses at Amaravati, Amritapuri, Bengaluru, Chennai, Coimbatore, Kochi, and Mysuru and a new upcoming campus at NCR Delhi (Faridabad) and spread over 1200+ acres with 100 lacs square feet of built-up space, Amrita is one of India’s top-ranked private university.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="images/about.jpg">
+    </div>
+</section>
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Accredited ‘A++’ by NAAC, Amrita Vishwa Vidyapeetham is a multidisciplinary research university having six campuses spread across three states in India;<br>Kerala, Tamil Nadu and Karnataka. The university’s headquarters is situated at Ettimadai, Coimbatore, Tamil Nadu.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Darshan Suresh</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMeno(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

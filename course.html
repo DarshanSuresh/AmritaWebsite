@@ -1,0 +1,96 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts/gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo-colored.svg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMeno()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMeno()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>UNDERGRADUATE</h3>
+            <p>B. Com.<br>B. Com. (Taxation and Finance)<br>B. B. A.<br>B. C. A.<br>B. C. A. (Data Science)<br>B. Sc. in Visual Media<br>B.Sc (Honours) in Chemistry with Minor in Materials Design<br>B. Sc. in Physics, Chemistry, Mathematics<br>B. Sc. in Physics, Mathematics, Computer Science</p> 
+        </div>
+        <div class="course-col">
+            <h3>POSTGRADUATE</h3>
+            <p>MSc Visual Communication (Digital Film Making & Media Production)<br>M.Sc. in Visual Communication (Animation and Design)<br>M. Com. Finance and Systems<br>M. C. A.<br>. Sc. Chemistry<br>M.A. Visual Media and Communication<br>M. A. Journalism and Mass Communication</p> 
+        </div>
+        <div class="course-col">
+            <h3>DOCTORAL</h3>
+            <p>Ph. D. in English and Languages<br>Ph. D. in Management and Commerce<br>Ph. D. in Sciences<br>Ph. D. in Computer Science<br>. D. in Visual Communication</p> 
+        </div>
+    </div>
+</section>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <dic class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>Library</h3>
+            <p>Library which is an integral part of Academics is kept open even beyond college woeking hours for the benifit of its users. An independent library management system which is the part of Amrita Vishwa Vidyapeetham Managaement System helps the distribution of the books more easily.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/computer-lab.jpg">
+            <h3>Computer Labs</h3>
+            <p>Computer Labs at the School are equipped with advanced and sophisticated networked computing environment with state of Art technology.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Sports.jpg">
+            <h3>Gym, Sports & Games Facilities</h3>
+            <p>Lorem ipsum dolor sit amet, cosectetur adipisicing elit. Pellentesque aliquent turpis nulla.</p>
+        </div>
+    </dic>
+</section>
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Accredited ‘A++’ by NAAC, Amrita Vishwa Vidyapeetham is a multidisciplinary research university having six campuses spread across three states in India;<br>Kerala, Tamil Nadu and Karnataka. The university’s headquarters is situated at Ettimadai, Coimbatore, Tamil Nadu.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Darshan Suresh</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMeno(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
