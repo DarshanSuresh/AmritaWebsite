@@ -15,11 +15,9 @@ This web application provides a seamless experience for exploring information ab
 
 ## Usage:
 
-1. **Clone the Repository:** Begin by cloning this repository to your local machine.
-
-2. **Open index.html:** Launch the website by opening the `index.html` file in your preferred web browser.
-
-3. **Explore the Website:** Interact with the navigation menu, explore programs, check the events calendar, and find admission details.
+1. Clone the Repository: Begin by cloning this repository to your local machine.
+2. Open index.html: Launch the website by opening the `index.html` file in your preferred web browser.
+3. Explore the Website: Interact with the navigation menu, explore programs, check the events calendar, and find admission details.
 
 ## Contributing:
 
