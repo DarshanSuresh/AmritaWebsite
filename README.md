@@ -7,7 +7,7 @@ This web application provides a seamless experience for exploring information ab
 
 # Key Features:
 
-- ** Interactive Navigation: Easily navigate through different sections of the website for a comprehensive understanding of Amrita College.
+- ** Interactive Navigation: ** Easily navigate through different sections of the website for a comprehensive understanding of Amrita College.
 Programs and Courses: Explore the diverse range of academic programs offered by Amrita College with detailed information.
 Dynamic Events Calendar: Stay updated with the latest events and activities happening at the college using the interactive calendar.
 Admission Information: Access comprehensive information about the admission process, eligibility criteria, and application deadlines.
