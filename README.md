@@ -30,7 +30,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Project Structure:
 
 - **/css:** Contains the CSS stylesheets for styling the website.
-
 - **/js:** Includes JavaScript files for adding interactivity and dynamic features.
 
 - **/images:** Store images related to Amrita College to be used in the website.
